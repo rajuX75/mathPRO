@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realtime Math Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="login" class="container">
+      <h1>Join the Math Game</h1>
+      <input type="text" id="username" placeholder="Enter your username" />
+      <button id="join">Join</button>
+    </div>
+    <div id="time-selection" class="container" style="display: none">
+      <h1>Select Game Duration (in seconds)</h1>
+      <input
+        type="number"
+        id="time"
+        placeholder="Enter time in seconds"
+        min="10"
+        max="300"
+      />
+      <button id="start">Start Game</button>
+    </div>
+    <div id="game" class="container" style="display: none">
+      <div id="dashboard">
+        <div id="timer">
+          Time Remaining: <span id="time-remaining"></span> seconds
+        </div>
+        <div id="status"></div>
+        <div id="scoreboard">
+          <div id="your-info">
+            <h2>You: <span id="your-username"></span></h2>
+            <div>Your Score: <span id="your-score">0</span></div>
+          </div>
+          <div id="opponent-info">
+            <h2>Opponent: <span id="opponent-username"></span></h2>
+            <div>Opponent's Score: <span id="opponent-score">0</span></div>
+          </div>
+        </div>
+        <div id="question-card">
+          <div id="question"></div>
+          <input type="text" id="answer" placeholder="Your answer" />
+          <button id="submit">Submit</button>
+        </div>
+        <div id="result"></div>
+      </div>
+    </div>
+    <div id="game-over" class="container" style="display: none">
+      <h1>Game Over</h1>
+      <div id="winner"></div>
+      <button id="restart">Restart</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
