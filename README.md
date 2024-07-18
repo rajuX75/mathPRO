@@ -13,7 +13,7 @@ Realtime Math Game is a multiplayer web-based application where players can comp
 
 ## Screenshots
 
-Include screenshots or visuals of the game interface here.
+Coming soon.
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ Include screenshots or visuals of the game interface here.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/realtime-math-game.git
+   git clone https://github.com/rajuX75/mathPRO.git
    
 2. Navigate into the project directory:
    ```bash
