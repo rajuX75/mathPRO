@@ -11,6 +11,10 @@ Realtime Math Game is a multiplayer web-based application where players can comp
 - **Game Over**: The game ends automatically when the time is up, and the winner is announced.
 - **Responsive Design**: Enjoy a seamless experience across different devices.
 
+## Screenshots
+
+Include screenshots or visuals of the game interface here.
+
 ## Getting Started
 
 ### Prerequisites
@@ -20,6 +24,38 @@ Realtime Math Game is a multiplayer web-based application where players can comp
 ### Installation
 
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/rajuX75/mathPRO.git
+   git clone https://github.com/your-username/realtime-math-game.git
+   
+2. Navigate into the project directory:
+   ```bash
+   cd mathPRO
+   
+3. Install dependencies:
+   ```bash
+   npm install
+
+## Usage
+
+1. Start the server:
+   ```bash
+   node server.js
+
+2. Open your web browser and go to http://localhost:3000.
+
+3. Enter a username, select a game duration, and start playing!
+
+## Contributing
+Contributions are welcome! If you have any ideas, enhancements, or bug fixes, feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+This project was inspired by the need for a simple yet engaging multiplayer game to practice math skills.
+Thanks to Socket.io for providing the real-time communication framework.
+
+Enjoy playing the Realtime Math Game! If you have any questions or suggestions, feel free to reach out.
+
+
+
